@@ -1,3 +1,4 @@
+
 sources:
   - name: raw
     description: Raw taxi trip data from NYC TLC
@@ -9,7 +10,7 @@ sources:
       {%- endif -%}
     schema: |
       {%- if target.type == 'bigquery' -%}
-        nytaxi
+        nytaxi_cloud
       {%- else -%}
         prod
       {%- endif -%}
