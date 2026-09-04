@@ -10,7 +10,7 @@ sources:
       {%- endif -%}
     schema: |
       {%- if target.type == 'bigquery' -%}
-        nytaxi_cloud
+        nytaxi_cloud_us
       {%- else -%}
         prod
       {%- endif -%}
