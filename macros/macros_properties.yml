@@ -6,10 +6,10 @@ macros:
       Returns a numeric value representing the duration in minutes.
     arguments:
       - name: pickup_datetime
-        type: timestamp
+        type: string
         description: The pickup timestamp
       - name: dropoff_datetime
-        type: timestamp
+        type: string
         description: The dropoff timestamp
 
   - name: get_vendor_data
